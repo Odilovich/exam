@@ -1,0 +1,38 @@
+#featured {
+    .featured__wrapper {
+        padding-bottom: 150px;
+        &--tittles {
+            margin-bottom: 60px;
+            &-text1 {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                margin-bottom: 20px;
+
+                p {
+                    color: #DB4444;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 20px;
+                }
+            }
+
+            &-text2 {
+                display: flex;
+                justify-content: space-between;
+                p {
+                    width: 401px;
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 48px;
+                    letter-spacing: 1.44px;
+                    margin-bottom: 60px;
+                }
+            }
+        }
+    }
+}

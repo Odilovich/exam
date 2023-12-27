@@ -1,0 +1,95 @@
+#music {
+    margin-bottom: 82px;
+    .music__wrapper {
+        width: 1170px;
+        height: 500px;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 55px;
+
+        &--left {
+            &-text1 {
+                color: #0F6;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;
+                margin-bottom: 32px;
+            }
+
+            &-text2 {
+                width: 443px;
+                color: var(--Text, #FAFAFA);
+                font-family: Inter;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 60px;
+                letter-spacing: 1.92px;
+                margin-bottom: 32px;
+            }
+
+            &--cirkls {
+                margin-bottom: 40px;
+                display: flex;
+                align-items: center;
+                gap: 24px;
+                &-cirkl {
+                    width: 70px;
+                    height: 70px;
+                    padding: 14px 16px;
+                    border-radius: 50%;
+                    background: white;
+                    text-align: center;
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+
+                    h3 {
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 20px;
+                    }
+
+                    p {
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 18px;
+                    }
+                }
+            }
+
+            button {
+                padding: 16px 48px;
+                border-radius: 6px;
+                background: #0F6;
+                border: none;
+                color: #FAFAFA;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                transition: all 0.2s ease;
+
+                &:hover{
+                    cursor: pointer;
+                    background: rgb(6, 143, 61);
+                }
+            }
+
+
+        }
+
+        &--right {}
+    }
+}

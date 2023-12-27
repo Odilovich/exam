@@ -1,0 +1,33 @@
+#services {
+    margin-bottom: 140px;
+    .services__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 88px;
+
+        &--tittle {
+            text-align: center;
+            h2 {
+                color: #000;
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px;
+                margin-bottom: 8px;
+                margin-top: 24px;
+            }
+
+            p {
+                color: #000;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21px;
+            }
+        }
+    }
+}

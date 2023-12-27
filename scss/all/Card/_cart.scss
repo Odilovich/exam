@@ -1,0 +1,267 @@
+#cart {
+    margin-top: 105px;
+    margin-bottom: 24px;
+
+    .cart__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 40px;
+        border-radius: 4px;
+        background: var(--Primary, #FFF);
+        box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+        margin-bottom: 40px;
+
+        &-line {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+
+        }
+    }
+
+    .cart__wrapper1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 40px;
+        border-radius: 4px;
+        background: var(--Primary, #FFF);
+        box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+        margin-bottom: 40px;
+
+        &-line {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+
+        }
+
+        &-text {
+            padding-right: 100px;
+        }
+
+        &-image {
+            margin-right: 120px;
+        }
+    }
+
+    .cart__wrapper2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 40px;
+        border-radius: 4px;
+        background: var(--Primary, #FFF);
+        box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+
+        &-line {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+
+        }
+
+        &-text {
+            padding-right: 100px;
+        }
+
+        &-image {
+            margin-right: 120px;
+        }
+    }
+
+    .cart__buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+
+        &-btn1 {
+            padding: 16px 48px;
+            border-radius: 4px;
+            border: 1px solid rgba(0, 0, 0, 0.50);
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            background: transparent;
+            margin-top: 24px;
+            transition: all 0.2s ease;
+
+            &:hover {
+                color: #7D8184;
+                cursor: pointer;
+            }
+
+            &:active{
+                background: #DB4444;
+                color: white;
+                border: 1px solid #DB4444 ;
+            }
+        }
+
+        &-btn2 {
+            padding: 16px 48px;
+            border-radius: 4px;
+            border: 1px solid rgba(0, 0, 0, 0.50);
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            background: transparent;
+            margin-top: 24px;
+            transition: all 0.2s ease;
+
+            &:hover {
+                color: #7D8184;
+                cursor: pointer;
+            }
+
+            &:active{
+                background: #DB4444;
+                color: white;
+                border: 1px solid #DB4444 ;
+            }
+        }
+    }
+
+    .cart__bottom {
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 140px;
+
+        &--left {
+            display: flex;
+            align-items: start;
+            gap: 16px;
+
+            input {
+                padding: 16px 164px 16px 24px;
+                border-radius: 4px;
+                border: 1px solid #000;
+                font-family: Poppins;
+            }
+
+            button {
+                padding: 16px 48px;
+                border-radius: 4px;
+                background: #DB4444;
+                border: none;
+                color: #FAFAFA;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                transition: all 0.2s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #E07575;
+                    color: white;
+                }
+
+                &:active{
+                    background: #DB4444;
+                }
+            }
+        }
+
+        &--right {
+            width: 470px;
+            padding: 32px 24px;
+            border: 1px solid rgba(0, 0, 0, 0.50);
+
+            h2 {
+                color: var(--Text2, #000);
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px;
+                margin-bottom: 24px;
+            }
+
+            &--tittle {
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+
+
+
+            .cart-line {
+                width: 422px;
+                height: 1px;
+                background: #000;
+                opacity: 0.4;
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+
+            &-btn {
+                padding: 16px 48px;
+                border-radius: 4px;
+                background: #DB4444;
+                border: none;
+                color: #FAFAFA;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                margin-top: 16px;
+                transition: all 0.2s ease;
+                margin-left: 73px;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #E07575;
+                    color: white;
+                }
+
+                &:active{
+                    background: #DB4444;
+                }
+            }
+        }
+    }
+}

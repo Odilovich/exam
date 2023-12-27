@@ -1,0 +1,100 @@
+#login {
+    margin-top: 60px;
+    margin-bottom: 140px;
+
+    .login__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--left {
+
+            img {
+                width: 700px;
+                height: 650px;
+                position: relative;
+                left: -60px;
+            }
+        }
+
+        &--right {
+
+            &-tittle {
+                h2 {
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 30px;
+                    letter-spacing: 1.44px;
+                    margin-bottom: 25px;
+                }
+
+                p {
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 50px;
+                }
+            }
+
+            input {
+                color: rgba(0, 0, 0, 0.705);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                padding-top: 6px;
+                padding-left: 0px;
+                padding-bottom: 6px;
+                padding-right: 165px;
+                display: block;
+                border: none;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+                margin-bottom: 40px;
+
+                &:first-child {
+                    margin-top: 50px;
+                }
+
+            }
+
+            .button1 {
+                padding: 16px 48px;
+                border-radius: 6px;
+                background: #DB4444;
+                color: #FAFAFA;
+                border: none;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                transition: all 0.2s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #c22c2c;
+                    color: white;
+                }
+
+            }
+
+            a {
+                text-decoration: none;
+                color: #DB4444;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                margin-left: 80px;
+            }
+        }
+    }
+}
