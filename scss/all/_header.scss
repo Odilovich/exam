@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    border-bottom: rgb(0, 0, 0 , 0.3) solid 1px;
+    border-bottom: rgb(0, 0, 0, 0.3) solid 1px;
 
     // example
 
@@ -60,7 +60,7 @@ header {
                     line-height: 21px;
                 }
 
-                &:hover{
+                &:hover {
                     cursor: pointer;
                 }
             }
@@ -93,7 +93,7 @@ header {
                 gap: 48px;
                 list-style-type: none;
 
-                .active{
+                .active {
                     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
                 }
 
@@ -136,6 +136,58 @@ header {
                         cursor: pointer;
                     }
 
+                }
+
+                .dropbtn {
+                    cursor: pointer;
+                    background-color: transparent;
+                    border: none;
+                }
+
+                .dropdown {
+                    position: relative;
+                    display: inline-block;
+                }
+
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    left: -224px;
+                    top: 35px;
+                    border-radius: 4px;
+                    background: rgba(77, 77, 77, 0.365);
+                    backdrop-filter: blur(75px);
+                    min-width: 250px;
+                    padding-top: 15px;
+                    padding-bottom: 10px;
+                    z-index: 99;
+
+                    a {
+                        display: flex;
+                        text-decoration: none;
+                        align-items: center;
+                        gap:10px;
+                        padding: 20px;
+                        height: 40px;
+
+                        &:hover {
+                            background-color: #1d1d1d;
+                            border-radius: 2px;
+                        }
+                    }
+
+                    .user-icn {
+
+                    }
+
+                    p {
+                        color: #fafafa;
+                        text-decoration: none;
+                    }
+                }
+
+                .dropdown:hover .dropdown-content {
+                    display: block;
                 }
             }
         }

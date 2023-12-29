@@ -40,18 +40,46 @@
                         <li class="nav__list--item active"><a class="nav__list--item-link" href="#">Home</a></li>
                         <li class="nav__list--item"><a class="nav__list--item-link" href="#">Contact</a></li>
                         <li class="nav__list--item"><a class="nav__list--item-link" href="#">About</a></li>
-                        <li class="nav__list--item"><a class="nav__list--item-link" href="./pages/Sign-up/index.html">Sign Up</a></li>
+                        <li class="nav__list--item"><a class="nav__list--item-link"
+                                href="./pages/Sign-up/index.html">Sign Up</a></li>
                     </ul>
 
                     <div class="nav__end">
                         <input class="nav__end--input" type="text" placeholder="What are you looking for?">
                         <div class="nav__end--svg">
-                            <a href="./pages/Wishlist/index.html"><img src="./assets/images/Wishlist.svg" alt="icon"></a>
+                            <a href="./pages/Wishlist/index.html"><img src="./assets/images/Wishlist.svg"
+                                    alt="icon"></a>
                             <a href="./pages/Card/index.html"><img src="./assets/images/karzinka.svg" alt="icon"></a>
-                            <a href="./pages/Account/index.html"><img src="./assets/images/user.svg" alt="icon"></a>
+                            <div class="dropdown">
+                                <button class="dropbtn" href="#"><img src="./assets/images/User.svg"
+                                        alt="icon"></button>
+                                <div class="dropdown-content">
+                                    <a href="./pages/Account/" class="user-icn">
+                                        <img src="./assets/images/user-drop.svg" alt="icon">
+                                        <p>Manage My Account</p>
+                                    </a>
+                                    <a href="#">
+                                        <img src="./assets/images/order-drop.svg" alt="icon">
+                                        <p>My Order</p>
+                                    </a>
+                                    <a href="#">
+                                        <img src="./assets/images/cancel-drop.svg" alt="icon">
+                                        <p>My Cancellations</p>
+                                    </a>
+                                    <a href="#">
+                                        <img src="./assets/images/reviews-drop.svg" alt="icon">
+                                        <p>My Reviews</p>
+                                    </a>
+                                    <a href="#">
+                                        <img src="./assets/images/logout-drop.svg" alt="icon">
+                                        <p>Logout</p>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     </header>
@@ -602,7 +630,8 @@
 
                         <div class="selling__wrapper--tittles-text2">
                             <p>Best Selling Products</p>
-                            <a href="./pages/Product/index.html"><button class="card--end-btn">View All Products</button></a>
+                            <a href="./pages/Product/index.html"><button class="card--end-btn">View All
+                                    Products</button></a>
                         </div>
                     </div>
 
@@ -1041,6 +1070,10 @@
                         </div>
                     </div>
 
+                    <div class="featured-img">
+                        <img src="./assets/images/featured.jpg" alt="image">
+                    </div>
+
                 </div>
 
             </div>
@@ -1071,6 +1104,8 @@
                 </div>
             </div>
         </section>
+
+        <a href=""><img class="go-top" src="./assets/images/go-top.svg" alt="icon"></a>
         <!-- intro section end-->
     </main>
 

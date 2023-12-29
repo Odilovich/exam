@@ -315,7 +315,15 @@ template {
 }
 
 body {
-  font-family: Poppins "sans-serif";
+  font-family: Poppins;
+}
+body .go-top {
+  position: relative;
+  left: 1110px;
+  bottom: 30px;
+  padding: 30px;
+  background: #c0c0c0;
+  border-radius: 50%;
 }
 
 a {
@@ -473,6 +481,48 @@ header #nav-2 .nav__end--svg {
 }
 header #nav-2 .nav__end--svg img:hover {
   cursor: pointer;
+}
+header #nav-2 .nav__end .dropbtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+header #nav-2 .nav__end .dropdown {
+  position: relative;
+  display: inline-block;
+}
+header #nav-2 .nav__end .dropdown-content {
+  display: none;
+  position: absolute;
+  left: -224px;
+  top: 35px;
+  border-radius: 4px;
+  background: rgba(77, 77, 77, 0.365);
+  -webkit-backdrop-filter: blur(75px);
+          backdrop-filter: blur(75px);
+  min-width: 250px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  z-index: 99;
+}
+header #nav-2 .nav__end .dropdown-content a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  height: 40px;
+}
+header #nav-2 .nav__end .dropdown-content a:hover {
+  background-color: #1d1d1d;
+  border-radius: 2px;
+}
+header #nav-2 .nav__end .dropdown-content p {
+  color: #fafafa;
+  text-decoration: none;
+}
+header #nav-2 .nav__end .dropdown:hover .dropdown-content {
+  display: block;
 }
 
 main {
